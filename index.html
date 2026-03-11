@@ -1,0 +1,91 @@
+<!DOCTYPE html> <!---- Declaração do tipo de documento, indicando que este é um documento HTML5 --> 
+<html lang="pt-br"> <!-- Elemento raiz do documento HTML, com o atributo "lang" indicando que o idioma principal é o português do Brasil -->
+
+<head> <!-- Cabeçalho do documento, onde são definidas as meta-informações e links para recursos externos que não aparecem diretamente na página -->
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 (pode usar acentos, cedilha, etc..) -->
+  <title>Sim sinapse -  Psicopedagogia e Neuropsicopedagogia</title> <!-- Título da página, que aparece na aba do navegador --> 
+  <link rel="stylesheet" href="style.css"> <!--  Link para o arquivo de estilo CSS, que define a aparência da página -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- adapta o site ao tamanho da tela-->
+  <meta name="description" content="Atendimento psicopedagógico com foco em estimulação cognitiva para crianças, jovens e adultos."> <!-- descrição que aparece nos resultados de busca do google-->
+  <meta name="robots" content="index, follow"> <!-- instrução para os motores de busca indexarem a página e seguirem os links -->
+  <link rel="icon" href="loguinho.png"> <!-- ícone que aparece na aba do navegador -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> <!-- link para a biblioteca de ícones Font Awesome, que permite usar ícones em toda a página -->
+</head>
+
+<body> <!-- Corpo do documento, onde o conteúdo visível da página é colocado -->
+
+<header> <!-- Cabeçalho da página, geralmente contém o título e a navegação principal -->
+  <h1> <img src="logo.png" alt="Sim Sinapse" class="logo"></h1>
+  <nav> <!-- Elemento de navegação, que contém links para diferentes seções da página -->
+    <a href="#home">Início</a> 
+    <a href="#sobre">Sobre</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contatos</a>
+  </nav>
+
+  <div class="menu-icon" onclick="toggleMenu()"> <!-- Ícone de menu para dispositivos móveis, que chama a função "toggleMenu()" quando clicado -->
+    ☰
+  </div>
+</header>
+
+<section id="home" class="hero"> <!-- Seção principal da página, identificada pelo id "home", que pode ser acessada através do link de navegação -->
+  <h1>Shirley da Cruz Teixeira</h1>
+  <h2>Psicopedagoga e Neuropsicopedagoga</h2>
+  <h3>Presencial e Online</h3>
+  <h4>Agende agora mesmo o seu atendimento! </h4> <!-- Parágrafo de texto que incentiva os visitantes a agendar um atendimento -->
+  <p>Atendimento psicopedagógico e Avaliação Neuropsicopedagógica </p>
+  <a href="#contato" class="botao-agendar">Agendar atendimento</a> <!-- Parágrafo de texto que descreve os serviços oferecidos, seguido por um link para a seção de contato, estilizado como um botão -->
+</section>
+
+<section id="atencao" class="atencao">
+  <h2>ATENÇÃO </h2>
+  <h3>Você conhece alguém que tem dificuldades de aprendizagem? </h3>
+  <h4>Não sabe como ajudar ou precisa de orientação especializada? </h4>
+  <h5>A psicopedagoga é a profissional que acolhe e auxilia crianças, jovens e adultos em suas dificuldades de aprendizagem. Por meio de um olhar atento e individualizado, busca compreender as necessidades de cada pessoa e desenvolver estratégias que estimulem suas habilidades e fortaleçam seu processo de aprendizagem.</h5>
+  <p>A neuropsicopedagoga atua na relação entre cérebro e aprendizagem, auxiliando no desenvolvimento cognitivo e na superação de dificuldades de forma individualizada.</p>
+</section>
+    
+<div class="container-colunas">
+
+ <section id="sobre" class="sobre">
+  <h2>Sobre mim</h2>
+  <h3>
+  A atuação na Psicopedagogia e na Neuropsicopedagogia tem como objetivo compreender e auxiliar pessoas que apresentam dificuldades, distúrbios ou transtornos de aprendizagem, promovendo estratégias que favoreçam seu desenvolvimento.
+  </h3>
+  <p>
+  Sou formada em Pedagogia desde 2004, com especialização em Educação Especial e pós-graduada em Psicopedagogia e Neuropsicopedagogia, minha trajetória profissional é marcada pela dedicação ao estudo do desenvolvimento humano.
+  </p>
+ </section>
+
+ <section id="servicos" class="servico">
+  <h2>Serviços</h2>
+  <h3>Atendimento Online e Domiciliar</h3>
+  <h4>Avaliação Neuropsicopedagógica</h4>
+ </section>
+
+</div>
+
+<section id="contato" class="contato"></section>
+
+<footer>
+  <p>Entre em contato para mais informações ou agendar atendimento:</p>
+    <a href="https://wa.me/5511989924814?text=Olá,%20vim%20pelo%20site%20Sim%20Sinapse" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+    </a>
+      <br><br>
+    <a href="mailto:yazurc@yahoo.com.br">
+    <i class="fa-solid fa-envelope"></i> E-mail
+    </a>
+      <br><br>
+    <a href="https://www.instagram.com/simsinapse" target="_blank">
+    <i class="fa-brands fa-instagram"></i> Instagram
+    </a>
+  </section>
+  <p>© 2026 Sim Sinapse</p>
+  <p>Psicopedagogia e Neuropsicopedagogia</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
