@@ -88,12 +88,15 @@ header{
   padding: 120px 80px;
 
   display: flex;
-  justify-content: flex-end; /* joga tudo pra direita */
+  justify-content: flex-end;
 }
 
 .atencao-conteudo {
-  max-width: 500px; /* controla largura do texto */
+  max-width: 500px;
+  width: 100%;
   text-align: right;
+
+  margin-right: 40px;
 }
 
 .atencao h2 {
