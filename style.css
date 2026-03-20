@@ -81,69 +81,76 @@ header{
     font-size: 16px;
   }
 
-  p, h1, h2, h3, h4, h5{
-    font-size: 14px; /* ajusta fontes */
-  }
-}
-
-.atencao h2{
-  text-align: right;
-  padding-left: 400px;
-  font-size:22px;
-  font-family: 'Helvetica', sans-serif;
-  font-weight:bold;
-  color:#EE1F31;
-  margin-top:0;
-  margin-bottom:20px;
-}
-
-.atencao h3{
-  text-align: right;
-  padding-left: 400px;
-  font-size:30px;
-  font-family: 'Helvetica', sans-serif;
-  font-weight:bold;
-  color:#000000;
-  margin-top:0;
-  margin-bottom:10px;
-}
-
-.atencao h4{
-  text-align: right;
-  padding-left: 400px;
-  font-size:30px;
-  font-family: 'Helvetica', sans-serif;
-  font-weight: bold;
-  color:#000000;
-  margin-top:0;
-  margin-bottom:20px;
-}
-
-.atencao h5{
-  text-align: right;
-  padding-left: 400px;
-  font-size:25px;
-  font-family: 'Helvetica', sans-serif;
-  color:rgb(92, 91, 91);
-  margin-top:0;
-  margin-bottom:20px;
-}
-
-.atencao p{
-  text-align: right;
-  padding-left: 400px;
-  font-size:25px;
-  font-family: 'Helvetica', sans-serif;
-  color:rgb(132, 132, 132);
-  margin-top:0;
-  margin-bottom:20px;
-}
-
-.atencao{
+.atencao {
   background-image: url("fundo2.png");
   background-size: cover;
   background-position: center;
-  padding:120px 80px;
+  padding: 120px 80px;
+
+  display: flex;
+  justify-content: flex-end; /* joga tudo pra direita */
+}
+
+.atencao-conteudo {
+  max-width: 500px; /* controla largura do texto */
+  text-align: right;
+}
+
+.atencao h2 {
+  font-size: 22px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  color: #EE1F31;
+  margin-bottom: 20px;
+}
+
+.atencao h3 {
+  font-size: 30px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.atencao h4 {
+  font-size: 30px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.atencao h5 {
+  font-size: 25px;
+  font-family: 'Helvetica', sans-serif;
+  color: rgb(92, 91, 91);
+  margin-bottom: 20px;
+}
+
+.atencao p {
+  font-size: 20px;
+  font-family: 'Helvetica', sans-serif;
+  color: rgb(132, 132, 132);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .atencao {
+    justify-content: center; 
+    padding: 60px 20px;
+  }
+
+  .atencao-conteudo {
+    text-align: center;
+  }
+
+  .atencao h2,
+  .atencao h3,
+  .atencao h4,
+  .atencao h5,
+  .atencao p {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 768px) {
