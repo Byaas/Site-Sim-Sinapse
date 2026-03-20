@@ -16,22 +16,6 @@ header{
   background: #d5d1d1;
 }
 
-@media (max-width: 768px) {
-  .hero, .atencao {
-    padding: 60px 20px; /* menos espaço para caber na tela pequena */
-  }
-
-  .hero h1, .hero h2, .hero h3, .hero h4, .hero p {
-    font-size: 14px; /* ajustar tamanho das fontes */
-  }
-
-  .atencao h2, .atencao h3, .atencao h4, .atencao h5, .atencao p {
-    text-align: left; /* tirar alinhamento à direita */
-    padding-left: 0; /* remover padding exagerado */
-    font-size: 16px; /* ajustar fontes */
-  }
-}
-
 .hero h1{
   font-size:18px;
   font-family: 'Helvetica', sans-serif;
